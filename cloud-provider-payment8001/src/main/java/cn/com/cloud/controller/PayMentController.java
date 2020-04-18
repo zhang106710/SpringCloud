@@ -58,4 +58,9 @@ public class PayMentController {
             return port;
         }
     }
+
+    @GetMapping("/panyment/zipkin")
+    public String panymentZipkin(){
+        return  "hi. i am panymentZipkin server "+port;
+    }
 }

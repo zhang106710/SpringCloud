@@ -5,6 +5,7 @@ spring:
   application:
     name: cloud-provider-hystrix-payment
 
+
 eureka:
   client:
     register-with-eureka: true
